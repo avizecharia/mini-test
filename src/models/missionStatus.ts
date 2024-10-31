@@ -1,6 +1,6 @@
 enum missionStatus {
   Pending = "Pending",
-  InProgress = "InProgress",
+  InProgress = "In Progress",
   Completed = "Completed",
 }
 export default missionStatus;

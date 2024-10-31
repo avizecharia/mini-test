@@ -2,13 +2,13 @@ import { v4 } from "uuid";
 import missionStatus from "./missionStatus";
 
 export default class Mission {
-  public id: string;
+  public _id: string;
   constructor(
     public name: string,
-    public status: missionStatus.Pending,
+    public status: missionStatus,
     public priority: string,
     public description: string
   ) {
-    this.id = v4();
+    this._id = v4();
   }
 }
